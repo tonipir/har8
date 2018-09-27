@@ -7,16 +7,16 @@
   <body>
     <h2>Person info</h2>
     <p>
-      Post array: <br>
-      <?php  print_r($_POST); ?>
+      Get array: <br>
+      <?php  print_r($_GET); ?>
       </p>
 
       <p>
-        <?php echo 'Etunimi on ' .$_POST['fname'];?>
+        <?php echo 'Etunimi on ' .$_GET['fname'];?>
       </p>
 
       <p>
-        <?php echo 'Sukunimi on ' .$_POST['lname']; ?>
+        <?php echo 'Sukunimi on ' .$_GET['lname']; ?>
       </p>
 
 
